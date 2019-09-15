@@ -1,4 +1,5 @@
 # wikisearch
+you can see a live demo here.  https://dipa27.github.io/dipa_wikisearch.github.io/
 
 A single page app using the wikipedia API and javascript to search articles
 
