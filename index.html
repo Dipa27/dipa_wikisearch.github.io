@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>WikiSearch</title>
+    
+    </head>
+    <body>
+        
+        <div class="container center-align">
+            <h2 class="  indigo-text accent-4">Wikipedia Page</h2>
+
+            <div class="row">
+                <form action="" method="GET" id="form" class="col s12">
+
+                    <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <input id="input" type="text" class="validate center-align" required>
+                            <label for="input">search wikipedia........</label>
+                        </div>
+                    </div>
+                    <a id="random" target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Feeling Random?</a>
+
+                        <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                            <button class="btn grey  waves-effect waves-light btn-large" type="submit" id="button" name="action">Search
+                            <i class="material-icons right">search</i>
+                            </button>
+                        </div>
+                       
+                    </div>
+
+                    
+                </form>
+            </div>
+
+            <div id="resultbox"></div>
+        </div>
+        
+         
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

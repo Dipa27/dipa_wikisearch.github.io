@@ -1,0 +1,29 @@
+.error{
+    animation: shake 0.2s ease-in-out 0s 2 !important;
+    border-bottom: 3px solid #c8102e !important;
+    
+}
+
+@keyframes shake {
+    0% { margin-left: 0rem; }
+    25% { margin-left: 0.9rem; }
+    75% { margin-left: -0.9rem; }
+    100% { margin-left: 0rem; }
+  }
+
+  #random {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+#random:hover {
+    color: #6e22fa;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
